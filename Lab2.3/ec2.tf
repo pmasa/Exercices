@@ -1,4 +1,4 @@
-
+# Create a web instance
 resource "aws_instance" "web1" {
     ami = "ami-04de2b60dd25fbb2e"
     instance_type = "t2.micro"
